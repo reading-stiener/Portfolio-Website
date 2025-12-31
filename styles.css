@@ -109,6 +109,13 @@ body {
     font-weight: 700;
     color: var(--primary);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo .logo-img {
+    height: 55px;
+    width: auto;
 }
 
 .nav-menu {
@@ -1267,6 +1274,17 @@ body {
     background: var(--dark);
     color: var(--white);
     padding: 60px 0 30px;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo-img {
+    height: 60px;
+    width: auto;
+    filter: invert(1);
 }
 
 .footer-content {
